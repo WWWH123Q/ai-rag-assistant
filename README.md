@@ -42,7 +42,7 @@
 
 ### 实验表格分析
 
-![实验表格分析](assets/05-table-analysis.png)
+![实验表格分析](assets/06-table-analysis.png)
 
 ---
 
