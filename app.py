@@ -18,9 +18,9 @@ import time
 
 load_dotenv()
 
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:3b")
-OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "...")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "...")
+OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "...")
 
 CHROMA_DIR = "chroma_db"
 st.set_page_config(
