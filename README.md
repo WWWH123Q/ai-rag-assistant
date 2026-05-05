@@ -334,18 +334,13 @@ ollama list
 在项目根目录下创建 `.env`：
 
 ```env
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=qwen2.5:3b
-OLLAMA_EMBED_MODEL=nomic-embed-text
+OLLAMA_BASE_URL="..."
+OLLAMA_MODEL="..."
+OLLAMA_EMBED_MODEL="..."
 ```
 
 也可以创建 `.env.example`，用于上传 GitHub：
 
-```env
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=qwen2.5:3b
-OLLAMA_EMBED_MODEL=nomic-embed-text
-```
 
 ---
 
