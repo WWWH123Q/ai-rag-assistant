@@ -121,9 +121,9 @@ chunk.metadata["chunk_id"] = i
 当前默认配置：
 
 ```env
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=qwen2.5:3b
-OLLAMA_EMBED_MODEL=nomic-embed-text
+OLLAMA_BASE_URL=....
+OLLAMA_MODEL=.....
+OLLAMA_EMBED_MODEL=....
 ```
 
 向量库默认保存位置：
@@ -245,7 +245,7 @@ format_chat_history(messages, max_rounds=3)
 用户：它的核心流程是什么？
 助手：RAG 的核心流程包括文档读取、文本切分、向量化、检索和生成……
 ```
-
+![多轮对话](assets/0505-multi-turn-chat.png)
 ---
 
 ### 9. CSV / Excel 实验表格分析
